@@ -1,0 +1,159 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    padding: 5px;
+    margin: 0px
+}
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.col-center {
+    margin: auto
+}
+.col-md-8 {
+    width: 70%;
+    padding: 10px;
+}
+.table {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    padding: 15px;
+    border: 1px solid #ececec
+}
+
+th {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td {
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 15px;
+    margin: 5px;
+    text-justify:auto;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: .25rem;
+    display: inline-block;
+    border-style: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:#007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color:#288efa;
+    border-color: #288efa;
+}
+
+
+.actions a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.actions a.view,
+.actions a.edit {
+    color: #007bff;
+}
+
+a.delete {
+    color: red;
+}
+
+form {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ececec;
+    width: 50%;
+    -webkit-box-shadow: 6px 7px 24px -6px rgba(156,156,156,1);
+    -moz-box-shadow: 6px 7px 24px -6px rgba(156,156,156,1);
+    box-shadow: 6px 7px 24px -6px rgba(156,156,156,1);
+    margin: auto;
+}
+.form-control {
+    padding: 10px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-select {
+    padding: 5px;
+}
+
+.success {
+    border: 1px solid rgb(0, 173, 0);
+    background-color: rgba(2, 252, 2, 0.384);
+    color: green;
+    padding: 10px;
+}
+
+.error {
+    border: 1px solid rgb(173, 0, 0);
+    background-color: rgba(15, 13, 13, 0.315);
+    color: rgb(128, 0, 0);
+    padding: 10px;
+}
+
+span.critical {
+    border: 1px solid red;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+    font-size: .8rem
+}
+
+span.major {
+    border: 1px solid rgb(76, 76, 255);
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(76, 76, 255);
+    font-size: .8rem
+}
+
+span.minor {
+    border: 1px solid rgb(65, 255, 90);
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(65, 255, 90);
+    font-size: .8rem
+}
